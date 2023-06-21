@@ -1,2 +1,2 @@
 # e-commerce
-my first e-commerce
+my first E-COMMERCE
