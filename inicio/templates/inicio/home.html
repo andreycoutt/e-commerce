@@ -1,27 +1,7 @@
-{% load static %}
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
-    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
-    <title>PET CARE</title>
-</head>
-<body>
-    <main class="grid">
-        <header class="flex">
-            <div>HOME</div>
-            <div>SERVIÇOS</div>
-            <div>SOBRE</div>
-            <div></div>
-            <div>LOGIN</div>
-        </header>
-        <nav>MENU</nav>
-        <article>CONTEUDO</article>
-        <footer>© 2023 - Todos os direitos reservados</footer>
-    </main>
-</body>
-</html>
+{% block title%}PET CARE{% endblock %}
+
+{% block content %}
+<h1>testando templates</h1>
+{% endblock %}
