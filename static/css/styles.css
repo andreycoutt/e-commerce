@@ -2,4 +2,54 @@
     padding: 0;
 }
 
+.h100{
+    height: 100px;
+}
+
+.h400{
+    height: 400px;
+}
+
+
+
+
 /* navbar */
+
+.navbar{
+    border-bottom: 2px solid black;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
