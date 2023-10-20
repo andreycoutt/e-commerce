@@ -5,14 +5,45 @@
 {% block content %}
     <div class="container">
         <div class="row">
-            <div class="col-12 p-4 mt-3"  style="background-color: rgb(80, 166, 247);">
+            
+            <!-- style="background-color: rgb(80, 166, 247); -->
+            <div class="col-12 p-4  bg-light">
                
             </div>
             
-            <div class="col-3" style="background-color: rgb(252, 122, 0);">
-                <div class="container">
+            
+            <div class="col-3" style="background-color: rgb(252, 252, 252);">
+                <div class="container py-4">
+                    <div class="carousel slide" data-bs-ride="carousel" id="ad">
+
+                        <div class="carousel-indicators">
+                            <button class="active" data-bs-target="#ad" data-bs-slide-to="0"></button>
+                            <button class="active" data-bs-target="#ad" data-bs-slide-to="1"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="../../../static/img/storyentrega.png" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../../../static/img/nomedog.png" alt="" class="d-block w-100">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" data-bs-target="#ad" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" data-bs-target="#ad" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+
+
+
+                    </div>
 
                 </div>
+
             </div>
             
             
@@ -25,13 +56,13 @@
                             <button class="" data-bs-target="#ads" data-bs-slide-to="2"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            <div class="carousel-item active" data-bs-interval="3000">
                                 <img src="../../../static/img/petcare.png" alt="" class="d-block w-100">
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-bs-interval="3000">
                                 <img src="../../../static/img/dog.avif" alt="" class="d-block w-100">
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item" data-bs-interval="3000">
                                 <img src="../../../static/img/dog.avif" alt="" class="d-block w-100">
                             </div>
                         </div>
